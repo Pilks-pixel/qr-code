@@ -1,0 +1,56 @@
+/* =========
+Layout
+========= */
+*, *::before, *::after {
+    box-sizing: border-box;    
+}
+
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+/* card */
+.container__card {
+    width: min( 80%, 400px);
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    box-shadow: 0px 4px 8px 0px hsl(220, 15%, 55%),
+		0 6px 10px hsl(220, 15%, 55%);
+}
+
+.container__card,
+.container__img {
+    border-radius: 12px;
+}
+
+/* ===========
+Typograpy
+=========== */
+
+.card__text {
+    padding: 0 1rem;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card__text > p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
+    font-weight: 15px;
+}
+
+.text__title {
+    font-weight: 18px;
+}
